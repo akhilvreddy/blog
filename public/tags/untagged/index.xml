@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Untagged on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/untagged/</link>
+    <description>Recent content in Untagged on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Jun 2025 11:01:04 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xavier vs He Init</title>
+      <link>http://localhost:1313/posts/xavier-vs-he-init/</link>
+      <pubDate>Fri, 20 Jun 2025 11:01:04 -0400</pubDate>
+      <guid>http://localhost:1313/posts/xavier-vs-he-init/</guid>
+      <description>&lt;h2 id=&#34;-the-problem&#34;&gt;🧠 The Problem&lt;/h2&gt;&#xA;&lt;p&gt;When training neural nets, bad weight initialization leads to exploding/vanishing gradients.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-xavier-initialization&#34;&gt;📐 Xavier Initialization&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed for tanh / sigmoid&lt;/li&gt;&#xA;&lt;li&gt;Keeps variance consistent across layers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Formula:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;$$ W \sim \mathcal{U}\left(-\frac{\sqrt{6}}{\sqrt{n_{in} + n_{out}}}, \frac{\sqrt{6}}{\sqrt{n_{in} + n_{out}}} \right) $$&lt;/p&gt;&#xA;&lt;h2 id=&#34;-he-initialization&#34;&gt;⚡ He Initialization&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed for ReLU&lt;/li&gt;&#xA;&lt;li&gt;Keeps forward activation variance high enough&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Formula:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;$$ W \sim \mathcal{N}\left(0, \frac{2}{n_{in}} \right) $$&lt;/p&gt;&#xA;&lt;h2 id=&#34;-pytorch-example&#34;&gt;🧪 PyTorch Example&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; torch.nn &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; nn&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Xavier&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nn&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Linear(&lt;span style=&#34;color:#ae81ff&#34;&gt;256&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;128&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nn&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;init&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xavier_uniform_(layer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;weight)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# He&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nn&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;init&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;kaiming_normal_(layer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;weight, nonlinearity&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;relu&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

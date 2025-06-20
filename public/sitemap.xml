@@ -8,6 +8,21 @@
     <loc>http://localhost:1313/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-20T11:01:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-06-20T11:01:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-20T11:01:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/untagged/</loc>
+    <lastmod>2025-06-20T11:01:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/xavier-vs-he-init/</loc>
+    <lastmod>2025-06-20T11:01:04-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,12 +30,6 @@
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
@@ -57,9 +66,6 @@
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/introduction-aux-modeles-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/templates/</loc>
