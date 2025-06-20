@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Akhil's Blog</title><link>https://akhilvreddy.github.io/blog/</link><description>Recent content on Akhil's Blog</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 20 Jun 2025 11:01:04 -0400</lastBuildDate><atom:link href="https://akhilvreddy.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://akhilvreddy.github.io/blog/posts/2014/09/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/09/creating-a-new-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p>
-&lt;p>We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://akhilvreddy.github.io/blog/posts/2014/03/migrate-to-hugo-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/03/migrate-to-hugo-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">Move static content to &lt;code>static&lt;/code>&lt;/h2>
-&lt;p>Jekyll has a rule that any directory not starting with &lt;code>_&lt;/code> will be copied as-is to the &lt;code>_site&lt;/code> output. Hugo keeps all static content under &lt;code>static&lt;/code>. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p>
-&lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
- ▾ images/
- logo.png
-&lt;/code>&lt;/pre>
-&lt;p>should become&lt;/p>
-&lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
- ▾ static/
- ▾ images/
- logo.png
-&lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>Xavier vs He Init</title><link>https://akhilvreddy.github.io/blog/posts/2025/06/xavier-vs-he-init/</link><pubDate>Fri, 20 Jun 2025 11:01:04 -0400</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2025/06/xavier-vs-he-init/</guid><description>&lt;h2 id="-the-problem">🧠 The Problem&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Akhil's Blog</title><link>https://akhilvreddy.github.io/blog/</link><description>Recent content on Akhil's Blog</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 20 Jun 2025 11:01:04 -0400</lastBuildDate><atom:link href="https://akhilvreddy.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Xavier vs He Init</title><link>https://akhilvreddy.github.io/blog/posts/2025/06/xavier-vs-he-init/</link><pubDate>Fri, 20 Jun 2025 11:01:04 -0400</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2025/06/xavier-vs-he-init/</guid><description>&lt;h2 id="-the-problem">🧠 The Problem&lt;/h2>
 &lt;p>When training neural nets, bad weight initialization leads to exploding/vanishing gradients.&lt;/p>
 &lt;h2 id="-xavier-initialization">📐 Xavier Initialization&lt;/h2>
 &lt;ul>
@@ -38,7 +23,9 @@ With Jekyll, something that looked like&lt;/p>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># He&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nn&lt;span style="color:#f92672">.&lt;/span>init&lt;span style="color:#f92672">.&lt;/span>kaiming_normal_(layer&lt;span style="color:#f92672">.&lt;/span>weight, nonlinearity&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;relu&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>About</title><link>https://akhilvreddy.github.io/blog/about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/about/</guid><description>&lt;p>Hugo is the &lt;strong>world’s fastest framework for building websites&lt;/strong>. It is written in Go.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>word2vec from scratch: Intuition to Implementation</title><link>https://akhilvreddy.github.io/blog/posts/2025/06/word2vec-from-scratch-intuition-to-implementation/</link><pubDate>Mon, 16 Jun 2025 18:12:56 -0400</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2025/06/word2vec-from-scratch-intuition-to-implementation/</guid><description>&lt;p>Have you ever thought about how we teach machines which words are similar — and which ones aren’t? It&amp;rsquo;s wild to realize that our phones had smart autocomplete features &lt;em>decades&lt;/em> before modern AI tools like ChatGPT became mainstream.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Word embeddings laid the foundation for modern NLP models. Before transformer-style architectures took over (with their dynamic embeddings), Word2Vec was the go-to method for capturing the semantic meaning of words through dense (~ 100-300 dim) vectors.&lt;/p></description></item><item><title>About</title><link>https://akhilvreddy.github.io/blog/about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/about/</guid><description>&lt;p>Hugo is the &lt;strong>world’s fastest framework for building websites&lt;/strong>. It is written in Go.&lt;/p>
 &lt;p>It makes use of a variety of open source projects including:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/russross/blackfriday">https://github.com/russross/blackfriday&lt;/a>&lt;/li>
@@ -47,26 +34,4 @@ With Jekyll, something that looked like&lt;/p>
 &lt;li>&lt;a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/spf13/viper">https://github.com/spf13/viper&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Learn more and contribute on &lt;a href="https://github.com/gohugoio">GitHub&lt;/a>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://akhilvreddy.github.io/blog/posts/2014/04/hugo-template-primer/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/04/hugo-template-primer/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p>
-&lt;p>This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
-provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>https://akhilvreddy.github.io/blog/posts/2014/04/getting-started-with-hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/04/getting-started-with-hugo/</guid><description>&lt;h2 id="step-1-install-hugo">Step 1. Install Hugo&lt;/h2>
-&lt;p>Go to &lt;a href="https://github.com/spf13/hugo/releases">Hugo releases&lt;/a> and download the
-appropriate version for your OS and architecture.&lt;/p>
-&lt;p>Save it somewhere specific as we will be using it in the next step.&lt;/p>
-&lt;p>More complete instructions are available at &lt;a href="https://gohugo.io/getting-started/installing/">Install Hugo&lt;/a>&lt;/p>
-&lt;h2 id="step-2-build-the-docs">Step 2. Build the Docs&lt;/h2>
-&lt;p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.&lt;/p>
-&lt;p>Follow the following steps:&lt;/p>
-&lt;ol>
-&lt;li>Clone the &lt;a href="http://github.com/spf13/hugo">Hugo repository&lt;/a>&lt;/li>
-&lt;li>Go into the repo&lt;/li>
-&lt;li>Run hugo in server mode and build the docs&lt;/li>
-&lt;li>Open your browser to http://localhost:1313&lt;/li>
-&lt;/ol>
-&lt;p>Corresponding pseudo commands:&lt;/p></description></item></channel></rss>
+&lt;p>Learn more and contribute on &lt;a href="https://github.com/gohugoio">GitHub&lt;/a>.&lt;/p></description></item></channel></rss>
