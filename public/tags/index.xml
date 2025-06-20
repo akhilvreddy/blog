@@ -17,45 +17,24 @@
       <description></description>
     </item>
     <item>
-      <title>Development</title>
-      <link>http://localhost:1313/blog/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/development/</guid>
+      <title>Embeddings</title>
+      <link>http://localhost:1313/blog/tags/embeddings/</link>
+      <pubDate>Mon, 16 Jun 2025 18:12:56 -0400</pubDate>
+      <guid>http://localhost:1313/blog/tags/embeddings/</guid>
       <description></description>
     </item>
     <item>
-      <title>Go</title>
-      <link>http://localhost:1313/blog/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/go/</guid>
+      <title>Nlp</title>
+      <link>http://localhost:1313/blog/tags/nlp/</link>
+      <pubDate>Mon, 16 Jun 2025 18:12:56 -0400</pubDate>
+      <guid>http://localhost:1313/blog/tags/nlp/</guid>
       <description></description>
     </item>
     <item>
-      <title>Golang</title>
-      <link>http://localhost:1313/blog/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/golang/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/blog/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Templates</title>
-      <link>http://localhost:1313/blog/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/templates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>http://localhost:1313/blog/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/themes/</guid>
+      <title>Word2vec</title>
+      <link>http://localhost:1313/blog/tags/word2vec/</link>
+      <pubDate>Mon, 16 Jun 2025 18:12:56 -0400</pubDate>
+      <guid>http://localhost:1313/blog/tags/word2vec/</guid>
       <description></description>
     </item>
   </channel>
