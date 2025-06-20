@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://example.org/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://example.org/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/creating-a-new-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://example.org/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 20 Jun 2025 11:01:04 -0400</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://example.org/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/creating-a-new-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p>
 &lt;p>We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://example.org/posts/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">Move static content to &lt;code>static&lt;/code>&lt;/h2>
 &lt;p>Jekyll has a rule that any directory not starting with &lt;code>_&lt;/code> will be copied as-is to the &lt;code>_site&lt;/code> output. Hugo keeps all static content under &lt;code>static&lt;/code>. You should therefore move it all there.
@@ -13,7 +13,32 @@ With Jekyll, something that looked like&lt;/p>
  ▾ images/
  logo.png
 &lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>Création d'un nouveau thème</title><link>https://example.org/posts/creation-dun-nouveau-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/creation-dun-nouveau-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>Xavier vs He Init</title><link>https://example.org/posts/xavier-vs-he-init/</link><pubDate>Fri, 20 Jun 2025 11:01:04 -0400</pubDate><guid>https://example.org/posts/xavier-vs-he-init/</guid><description>&lt;h2 id="-the-problem">🧠 The Problem&lt;/h2>
+&lt;p>When training neural nets, bad weight initialization leads to exploding/vanishing gradients.&lt;/p>
+&lt;h2 id="-xavier-initialization">📐 Xavier Initialization&lt;/h2>
+&lt;ul>
+&lt;li>Designed for tanh / sigmoid&lt;/li>
+&lt;li>Keeps variance consistent across layers&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Formula:&lt;/strong>&lt;/p>
+&lt;p>$$ W \sim \mathcal{U}\left(-\frac{\sqrt{6}}{\sqrt{n_{in} + n_{out}}}, \frac{\sqrt{6}}{\sqrt{n_{in} + n_{out}}} \right) $$&lt;/p>
+&lt;h2 id="-he-initialization">⚡ He Initialization&lt;/h2>
+&lt;ul>
+&lt;li>Designed for ReLU&lt;/li>
+&lt;li>Keeps forward activation variance high enough&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Formula:&lt;/strong>&lt;/p>
+&lt;p>$$ W \sim \mathcal{N}\left(0, \frac{2}{n_{in}} \right) $$&lt;/p>
+&lt;h2 id="-pytorch-example">🧪 PyTorch Example&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> torch.nn &lt;span style="color:#66d9ef">as&lt;/span> nn
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Xavier&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nn&lt;span style="color:#f92672">.&lt;/span>Linear(&lt;span style="color:#ae81ff">256&lt;/span>, &lt;span style="color:#ae81ff">128&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nn&lt;span style="color:#f92672">.&lt;/span>init&lt;span style="color:#f92672">.&lt;/span>xavier_uniform_(layer&lt;span style="color:#f92672">.&lt;/span>weight)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># He&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nn&lt;span style="color:#f92672">.&lt;/span>init&lt;span style="color:#f92672">.&lt;/span>kaiming_normal_(layer&lt;span style="color:#f92672">.&lt;/span>weight, nonlinearity&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;relu&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Création d'un nouveau thème</title><link>https://example.org/posts/creation-dun-nouveau-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/creation-dun-nouveau-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p>
 &lt;p>Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p></description></item><item><title>About</title><link>https://example.org/about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>https://example.org/about/</guid><description>&lt;p>Hugo is the &lt;strong>world’s fastest framework for building websites&lt;/strong>. It is written in Go.&lt;/p>
 &lt;p>It makes use of a variety of open source projects including:&lt;/p>
