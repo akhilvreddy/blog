@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title   = "Hello Friend NG"
+baseURL = "https://akhilvreddy.github.io/blog/"
+title   = "Akhil's Blog"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
