@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Word2vec on Akhil&#39;s Blog</title>
+    <link>http://localhost:1313/blog/tags/word2vec/</link>
+    <description>Recent content in Word2vec on Akhil&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 16 Jun 2025 18:12:56 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/word2vec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>word2vec from scratch: Intuition to Implementation</title>
+      <link>http://localhost:1313/blog/posts/2025/06/word2vec-from-scratch-intuition-to-implementation/</link>
+      <pubDate>Mon, 16 Jun 2025 18:12:56 -0400</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025/06/word2vec-from-scratch-intuition-to-implementation/</guid>
+      <description>&lt;p&gt;Have you ever thought about how we teach machines which words are similar — and which ones aren’t? It&amp;rsquo;s wild to realize that our phones had smart autocomplete features &lt;em&gt;decades&lt;/em&gt; before modern AI tools like ChatGPT became mainstream.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Word embeddings laid the foundation for modern NLP models. Before transformer-style architectures took over (with their dynamic embeddings), Word2Vec was the go-to method for capturing the semantic meaning of words through dense (~ 100-300 dim) vectors.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
