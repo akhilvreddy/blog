@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://example.org/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 20 Jun 2025 11:01:04 -0400</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://example.org/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/creating-a-new-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Akhil's Blog</title><link>https://akhilvreddy.github.io/blog/</link><description>Recent content on Akhil's Blog</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 20 Jun 2025 11:01:04 -0400</lastBuildDate><atom:link href="https://akhilvreddy.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://akhilvreddy.github.io/blog/posts/2014/09/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/09/creating-a-new-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p>
-&lt;p>We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://example.org/posts/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">Move static content to &lt;code>static&lt;/code>&lt;/h2>
+&lt;p>We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://akhilvreddy.github.io/blog/posts/2014/03/migrate-to-hugo-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/03/migrate-to-hugo-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">Move static content to &lt;code>static&lt;/code>&lt;/h2>
 &lt;p>Jekyll has a rule that any directory not starting with &lt;code>_&lt;/code> will be copied as-is to the &lt;code>_site&lt;/code> output. Hugo keeps all static content under &lt;code>static&lt;/code>. You should therefore move it all there.
 With Jekyll, something that looked like&lt;/p>
 &lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
@@ -13,7 +13,7 @@ With Jekyll, something that looked like&lt;/p>
  ▾ images/
  logo.png
 &lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>Xavier vs He Init</title><link>https://example.org/posts/xavier-vs-he-init/</link><pubDate>Fri, 20 Jun 2025 11:01:04 -0400</pubDate><guid>https://example.org/posts/xavier-vs-he-init/</guid><description>&lt;h2 id="-the-problem">🧠 The Problem&lt;/h2>
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>Xavier vs He Init</title><link>https://akhilvreddy.github.io/blog/posts/2025/06/xavier-vs-he-init/</link><pubDate>Fri, 20 Jun 2025 11:01:04 -0400</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2025/06/xavier-vs-he-init/</guid><description>&lt;h2 id="-the-problem">🧠 The Problem&lt;/h2>
 &lt;p>When training neural nets, bad weight initialization leads to exploding/vanishing gradients.&lt;/p>
 &lt;h2 id="-xavier-initialization">📐 Xavier Initialization&lt;/h2>
 &lt;ul>
@@ -38,9 +38,7 @@ With Jekyll, something that looked like&lt;/p>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># He&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nn&lt;span style="color:#f92672">.&lt;/span>init&lt;span style="color:#f92672">.&lt;/span>kaiming_normal_(layer&lt;span style="color:#f92672">.&lt;/span>weight, nonlinearity&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;relu&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Création d'un nouveau thème</title><link>https://example.org/posts/creation-dun-nouveau-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/creation-dun-nouveau-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p>
-&lt;p>Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p></description></item><item><title>About</title><link>https://example.org/about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>https://example.org/about/</guid><description>&lt;p>Hugo is the &lt;strong>world’s fastest framework for building websites&lt;/strong>. It is written in Go.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>About</title><link>https://akhilvreddy.github.io/blog/about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/about/</guid><description>&lt;p>Hugo is the &lt;strong>world’s fastest framework for building websites&lt;/strong>. It is written in Go.&lt;/p>
 &lt;p>It makes use of a variety of open source projects including:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/russross/blackfriday">https://github.com/russross/blackfriday&lt;/a>&lt;/li>
@@ -49,21 +47,14 @@ With Jekyll, something that looked like&lt;/p>
 &lt;li>&lt;a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/spf13/viper">https://github.com/spf13/viper&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Learn more and contribute on &lt;a href="https://github.com/gohugoio">GitHub&lt;/a>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://example.org/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
+&lt;p>Learn more and contribute on &lt;a href="https://github.com/gohugoio">GitHub&lt;/a>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://akhilvreddy.github.io/blog/posts/2014/04/hugo-template-primer/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/04/hugo-template-primer/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
 similarities in Go templates.&lt;/p>
 &lt;p>This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
-provide more details.&lt;/p></description></item><item><title>Débuter avec Hugo</title><link>https://example.org/posts/debuter-avec-hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/debuter-avec-hugo/</guid><description>&lt;h2 id="étape-1-installer-hugo">Étape 1. Installer Hugo&lt;/h2>
-&lt;p>Allez sur la page de téléchargements de
-&lt;a href="https://github.com/spf13/hugo/releases">hugo&lt;/a> et téléchargez la version
-appropriée à votre système d&amp;rsquo;exploitation et votre architecture.&lt;/p>
-&lt;p>Sauvegardez le fichier téléchargé à un endroit précis, afin de l&amp;rsquo;utiliser dans
-l&amp;rsquo;étape suivante.&lt;/p>
-&lt;p>Des informations plus complètes sont disponibles sur la page
-&lt;a href="https://example.org/overview/installing/">installing hugo&lt;/a>&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>https://example.org/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo">Step 1. Install Hugo&lt;/h2>
+provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>https://akhilvreddy.github.io/blog/posts/2014/04/getting-started-with-hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://akhilvreddy.github.io/blog/posts/2014/04/getting-started-with-hugo/</guid><description>&lt;h2 id="step-1-install-hugo">Step 1. Install Hugo&lt;/h2>
 &lt;p>Go to &lt;a href="https://github.com/spf13/hugo/releases">Hugo releases&lt;/a> and download the
 appropriate version for your OS and architecture.&lt;/p>
 &lt;p>Save it somewhere specific as we will be using it in the next step.&lt;/p>
@@ -78,19 +69,4 @@ you are reading right now.&lt;/p>
 &lt;li>Run hugo in server mode and build the docs&lt;/li>
 &lt;li>Open your browser to http://localhost:1313&lt;/li>
 &lt;/ol>
-&lt;p>Corresponding pseudo commands:&lt;/p></description></item><item><title>Introduction aux modèles (Hu)go</title><link>https://example.org/posts/introduction-aux-modeles-hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/introduction-aux-modeles-hugo/</guid><description>&lt;p>Hugo utilise l&amp;rsquo;excellente librairie &lt;a href="http://golang.org/">go&lt;/a> &lt;a href="http://golang.org/pkg/html/template/">html/template&lt;/a> pour
-son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit
-nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour
-créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de
-modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de
-similitudes avec les modèles go.&lt;/p>
-&lt;p>Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates. La
-&lt;a href="http://golang.org/pkg/html/template/">documentation go&lt;/a> fourni plus de détails.&lt;/p></description></item><item><title>Migrer vers Hugo depuis Jekyll</title><link>https://example.org/posts/migrer-vers-hugo-depuis-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://example.org/posts/migrer-vers-hugo-depuis-jekyll/</guid><description>&lt;h2 id="déplacez-le-contenu-statique-vers-static">Déplacez le contenu statique vers &lt;code>static&lt;/code>&lt;/h2>
-&lt;p>Jekyll a une règle comme quoi tout répertoire qui ne commence pas par &lt;code>_&lt;/code> sera
-copié tel-quel dans le répertoire &lt;code>_site&lt;/code>. Hugo garde tout le contenu statique
-dans le répertoire &lt;code>static&lt;/code>. Vous devez donc déplacer tout ce type de contenu
-là-dedans. Avec Jekylll, l&amp;rsquo;arborescence ressemblant à ceci :&lt;/p>
-&lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
- ▾ images/
- logo.png
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;p>Corresponding pseudo commands:&lt;/p></description></item></channel></rss>
